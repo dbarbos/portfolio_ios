@@ -13,7 +13,7 @@ Content Cell          | Content Cell                                         |
 
 ## Detalhamento dos projetos
 
-* ### Strong Weak Unowned
+* ### Strong Weak Unowned AKA ciclo de retenção
 
   * Neste arquivo de playground, são criados 3 tipos de cartão de crédito com referência ao cliente. 
   
