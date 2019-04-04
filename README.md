@@ -5,9 +5,9 @@ O objetivo deste repositório é mostrar algumas das técnicas e conhecimentos n
 
 ## Lista de projetos
 
-Nome                  | descrição                                            | tipo
+Nome                  | descrição                                            | categoria
 --------------------- | ---------------------------------------------------- | -----------
-Strong Weak Unowned   | Mostrar a diferença entre os 3 tipos de declaração   | **Playground**
+Strong Weak Unowned   | Mostrar a diferença entre os 3 tipos de declaração   | **fundamentos**
 Content Cell          | Content Cell                                         |
 
 
