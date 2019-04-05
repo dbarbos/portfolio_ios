@@ -11,7 +11,7 @@ Strong Weak Unowned   | Mostrar a diferença entre os 3 tipos de declaração   
 Dependency Injection  | Mostra como funciona injeção de dependencia no swift | **SOLID**
 Swinject              | Injeção de dependência usando o Swinject framework   | **framework**
 Coordinator           | Mostra como implementar o padrão coordinator         | **pattern**
-
+MVVM with Unit Test     | Mostra como aplicar MVVM para facilitar teste unitário | **pattern**
 
 ## Detalhamento dos projetos
 
@@ -91,4 +91,6 @@ Coordinator           | Mostra como implementar o padrão coordinator         | 
    
    
    * ### Coordinator usando Storyboard e XIB
+   
+   * ### MVVM aplicado com teste unitário
    
