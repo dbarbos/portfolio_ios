@@ -7,8 +7,10 @@ O objetivo deste repositório é mostrar algumas das técnicas e conhecimentos n
 
 Nome                  | descrição                                            | categoria
 --------------------- | ---------------------------------------------------- | -----------
-Strong Weak Unowned   | Mostrar a diferença entre os 3 tipos de declaração   | **fundamentos**
-Content Cell          | Content Cell                                         |
+Strong Weak Unowned   | Mostrar a diferença entre os 3 tipos de declaração   | **fundaments**
+Dependency Injection  | Mostra como funciona injeção de dependencia no swift | **SOLID**
+Swinject              | Injeção de dependência usando o Swinject framework   | **framework**
+Coordinator           | Mostra como implementar o padrão coordinator         | **pattern**
 
 
 ## Detalhamento dos projetos
@@ -43,3 +45,50 @@ Content Cell          | Content Cell                                         |
   let master = CartaoUnowned(cliente: clienteUnowned)
   ```
   
+  * ### Dependency Injection
+  
+   * Neste projeto eu demonstro como é feita a injeção de dependência no swift. Mostro um exemplo de injeção onde um organizador consegue mover objetos de um lado para o outro sem que as pontas se conheçam. Depois mostor o básico da implementação da injeção no construtor e a injeção de propriedade.
+   
+   ```swift
+   // Constructor injection
+
+   class Dono {
+     let nome: String
+     private let pet: Pet
+
+     init (nome: String, pet: Pet) {
+         self.nome = nome
+         self.pet = pet // pet é injetado ( Constructor injection )
+     }
+
+     func acariciar() {
+         self.pet.bark()
+     }
+   }
+   
+   ```
+ A injeção de propriedade permite passar a lógica de um método para outro objeto para que ele a execute mesmo sem saber os detalhes da execução:
+ 
+  ```swift
+   // Property Injection
+
+    class Notificacao {
+        var service : Service?
+        func promocao() {
+            if service != nil {
+                service?.sendMessage() // propriedade é injetada ( Property Injection )
+            }
+        }
+    }
+
+    class Service {
+        func sendMessage() { print("promoção")}
+    }
+  ```
+  
+  
+   * ### Swinject framework
+   
+   
+   * ### Coordinator usando Storyboard e XIB
+   
