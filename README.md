@@ -12,6 +12,7 @@ Dependency Injection  | Mostra como funciona injeção de dependencia no swift |
 Swinject              | Injeção de dependência usando o Swinject framework   | **framework**
 Coordinator           | Mostra como implementar o padrão coordinator         | **pattern**
 MVVM with Unit Test     | Mostra como aplicar MVVM para facilitar teste unitário | **pattern**
+RxCocoa Weather       | Um projeto que acessa a openweather API usando rxCocoa| **framework**
 
 ## Detalhamento dos projetos
 
@@ -93,4 +94,6 @@ MVVM with Unit Test     | Mostra como aplicar MVVM para facilitar teste unitári
    * ### Coordinator usando Storyboard e XIB
    
    * ### MVVM aplicado com teste unitário
+   
+   * ### RxCocoa para acessar o openweather API
    
