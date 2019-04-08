@@ -1,4 +1,4 @@
-# Portfolio iOS
+# Portfolio iOS ... work in progress
 
 O objetivo deste repositório é mostrar algumas das técnicas e conhecimentos necessários para um desenvolvedor iOS. Cada pasta do repositório possui um projeto ou um arquivo de playground demonstrando funcionamento específicos e referências para consultas no futuro.
 
